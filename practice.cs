@@ -114,15 +114,15 @@ using System.ComponentModel;
 
  //3.Constructor
 
-// class Constructor
-// {
-//     public string name;
-//     public int age;                      // Defualt Constructor
-//     public Constructor()
-//     {
-//         Console.WriteLine("Hello Constructor");
-//     }
-// }
+ class ConstructorName
+ {
+    public string name;
+     public int age;                      // Defualt Constructor
+     public ConstructorName()
+     {
+         Console.WriteLine("Hello Constructor");
+     }
+ }
 
 
  /* class Student
@@ -171,7 +171,7 @@ class Program
      {
          // add(5,5);
         //  greek();
-        //   Constructor obj = new Constructor();
+           ConstructorName obj = new ConstructorName();
 
           /* Student obj =new Student("Nutan");
           Console.WriteLine(obj.name); */
@@ -235,10 +235,10 @@ class Program
         e1.Work();
         e2.Work(); */
 
-        IAnimal i1=new Cat();
+        /* IAnimal i1=new Cat();
         IAnimal i2=new Dog();
         i1.Speak();
-        i2.Speak();
+        i2.Speak(); */
         
 
      }
